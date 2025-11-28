@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d1d5db49;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+#logo img {
+    height: 60px;
+}
+
+.hslider {
+    font-family: "PoppinsBold", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.rh-slider {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.h-button {
+    background: #2563EB;
+    color: white;
+    border-radius: 1em;
+    height: 40px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
+
+.h-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.login a,
+.login2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.login a:hover,
+.login2 a:hover {
+    color: #2563EB;
+}
+
+
+.h-section {
+    width: 100%;
+    height: 390px;
+    background-image: url("../Assets/Images/Copilot_20251117_212109.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+.h-section2
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/Whisk_91bc64583f43148998842790025fdb83eg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+
+}
+.h-section3
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/Whisk_1cf591b97b2049faffd4ff30fd7d68a3dr.jpeg);
+     background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+.h-section4
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/thriller1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+.h-section5
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/memoir3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+.h-section6
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/selfhelp2.jpg);
+     background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+
+.h-section7
+{
+    width: 100%;
+    height: 390px;
+    background-image: url(../Assets/Images/history.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+}
+
+.htag {
+    font-family: "PoppinsBold";
+    font-size: 50px;
+    color: white;
+}
+
+.htag2 {
+    color: #cbd3e0;
+    font-size: 16px;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 60px;
+    padding: 50px 0;
+}
+
+.navbar a {
+    padding: 30px 30px;
+    border-radius: 8px;
+    background: white;
+    text-decoration: none;
+    color: #4B5563;
+    font-size: 16px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: #2563EB;
+    color: white;
+}
+
+
+.container2,
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.book {
+    height: 370px;
+    width: 234px;
+    background: white;
+    border-radius: 1ch;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+.name {
+    font-family: "PoppinsBold";
+    font-size: 14px;
+    margin: 10px;
+}
+
+.text
+{
+    color: rgba(99, 98, 98, 0.993);
+    font-size: 13px;
+    margin-left: 11px;
+    margin-top: 7px;
+}
+
+.star
+{
+    margin-left: 11px;
+    color: #FFC107;
+}
+
+.rating
+{
+color: rgb(115, 115, 115, 0.993);
+margin-left: 102px;
+font-size: 12px;
+margin-top: -16px;
+}
+
+.review
+{
+    font-size: 10px;
+    margin-left: 124px;
+    color: rgba(99, 98, 98, 0.993);
+    margin-top: -12px;
+}
+
+.genre
+{
+    height: 19px;
+    width: 46px;
+    margin-left: 11px;
+    text-align: center;
+    text-align: justify;
+    font-size: small;
+    margin-top: 7px;
+}
+
+.genre 
+{
+    text-align: center;
+    font-size: 11px;
+    background: rgba(163, 211, 250, 0.724);
+    padding: 4px;
+    border-radius: 4px;
+    color: rgb(51, 51, 122)
+}
+.mgenre
+{
+    height: 19px;
+    width: 54px;
+    margin-left: 11px;
+    text-align: center;
+    text-align: justify;
+    font-size: small;
+    margin-top: 7px;
+}
+
+.mgenre 
+{
+    text-align: center;
+    font-size: 11px;
+    background: rgba(163, 211, 250, 0.724);
+    padding: 4px;
+    border-radius: 4px;
+    color: rgb(51, 51, 122)
+}
+.cgenre
+{
+    height: 19px;
+    width: 90px;
+    margin-left: 11px;
+    text-align: center;
+    text-align: justify;
+    font-size: small;
+}
+
+.cgenre p
+{
+    text-align: center;
+    font-size: 11px;
+    background: rgba(163, 211, 250, 0.724);
+    padding: 4px;
+    border-radius: 4px;
+    color: rgb(51, 51, 122)
+}
+
+.headbout {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+    font-family: "PoppinsBold";
+}
+
+.underline {
+    width: 60px;
+    height: 6px;
+    background: black;
+    border-radius: 4px;
+    margin: 10px auto 40px;
+}
+
+.aboutus {
+    width: 95%;
+    margin: auto;
+    background: #e6f1ff;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.reader {
+    width: 240px;
+    background: white;
+    border-radius: 1ch;
+    padding: 15px;
+}
+
+.genderimage,
+.genderimage2,
+.genderimage3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.genderimage {
+    background-image: url("../Assets/Images/Whisk_2714042db7019a0a86b49d08a00be510dr.jpeg");
+}
+
+.genderimage2 {
+    background-image: url("../Assets/Images/Copilot_20251117_102714.png");
+}
+
+.genderimage3 {
+    background-image: url("../Assets/Images/Whisk_1a8159a1a1177228f2e459e274200b34dr.jpeg");
+}
+
+.gendername {
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: "PoppinsBold";
+}
+
+.genderbout {
+    color: #4B5563;
+    font-size: 14px;
+}
+
+.star2 {
+    margin-top: 10px;
+    color: #FFC107;
+    font-size: 22px;
+}
+
+.gendertext {
+    margin-top: 10px;
+    color: #374151;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-top: 40px;
+    background: #e6f1ff;
+    margin-top: 50px;
+    width: 95%;
+    margin: 80px auto;
+    border-radius: 1ch;
+    padding: 40px 10px;
+
+}
+
+.number {
+    width: 180px;
+    height: 150px;
+    background: white;
+    border-radius: 1ch;
+    padding-top: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.number:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.bluetext {
+    font-size: 32px;
+    color: #2563EB;
+    font-weight: bold;
+}
+
+.graytext {
+    color: #4B5563;
+    padding-top: 10px;
+}
+
+.join {
+    width: 95%;
+    margin: 80px auto;
+    background: white;
+    border-radius: 1ch;
+    text-align: center;
+    padding: 40px 10px;
+    transition: 0.3s;
+}
+ .jointext
+ {
+    text-align: center;
+    font-size: 26px;
+    font-family: "PoppinsBold" , sans-serif;
+    padding-top:26px;
+    font-weight: bold;
+ }
+ .jointext2
+ {
+    color: #4B5563;
+    text-align: center;
+    padding-top: 15px;
+ }
+
+
+.j-button {
+    margin-top: 20px;
+    background: #2563EB;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background: #1F2937;
+    padding: 40px 20px;
+    color: white;
+}
+
+.lfooter
+ {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.jointext3
+{
+    color: #4B5563;
+    text-align: left;
+    font-size: 22px;
+    line-height: 36px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.h-slider2
+{
+    font-family: "PoppinsBold" , sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    width: 35%;
+    margin-top:-45px;
+    margin-left: 80px;
+}
+
+.footer2 {
+    color: #4B5563;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.footer2 a {
+    color: #9CA3AF;
+    text-decoration: none;
+}
+
+.footer2 a:hover {
+    text-decoration: underline;
+}
+
+.s-icons img {
+    padding-top: -70px;
+    color:  #4B5563;
+    margin-top: 10px;
+    margin-left: 24px;
+
+}
+
+
+.final2 {
+    text-align: center;
+    color: #9CA3AF;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .hslider {
+        font-size: 18px;
+    }
+
+    .rh-slider {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .htag {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .htag2 {
+        text-align: center;
+        max-width: 90%;
+        margin: auto;
+    }
+
+
+    .reader {
+        width: 85%;
+    }
+
+    .number {
+        width: 45%;
+    }
+
+    .join {
+        width: 100%;
+    }
+
+    .lfooter
+    {
+        text-align: center;
+    }
+    .h-slider2
+    {
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .htag {
+        font-size: 28px;
+        padding-top: 130px;
+    }
+    
+    .h-slider2
+    {
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .number {
+        width: 80%;
+    }
+
+    .book {
+        width: 95%;
+    }
+
+    .reader {
+        width: 95%;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+}
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    z-index: 1001;
+}
+
+.mobile-menu {
+    display: none;
+    background: white;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-menu li {
+    padding: 12px 0;
+}
+
+.mobile-menu a {
+    color: #374151;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.mobile-menu a:hover {
+    color: #2563EB;
+}
+
+#menu-toggle:checked ~ .mobile-menu {
+    display: block;
+}
+
+@media (max-width: 900px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
